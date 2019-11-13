@@ -1,0 +1,11 @@
+# snvtr_microservices
+snvtr microservices repository
+
+xxxx@VirtualBox:~$ docker images
+REPOSITORY              TAG                 IMAGE ID            CREATED             SIZE
+snvtr/hello-world-tmp   latest              4c32d1d70970        5 seconds ago       1.84kB
+hello-world             latest              fce289e99eb9        10 months ago       1.84kB
+
+разница между выводом inspect для образа и контейнера такая же как для исполняющейся виртуальной машиной и её образом (шаблоном).
+Виртуальная машина имеет собственное состояние и различные интерфейсы связанные с ней. Шаблон ничего подобного не имеет,
+он получит свою обвязку и состояние, только если из него породить виртуальную машину.
